@@ -144,7 +144,7 @@ Module.register("weatherforecast",{
 
 			var degreeLabel = "";
 			if (this.config.units === "metric" || this.config.units === "imperial") {
-				degreeLabel += "°";
+				degreeLabel += "&deg";
 			}
 			if(this.config.scale) {
 				switch(this.config.units) {
@@ -165,6 +165,7 @@ Module.register("weatherforecast",{
 			}
 
 			var maxTempCell = document.createElement("td");
+			
 			maxTempCell.innerHTML = forecast.maxTemp.replace(".", this.config.decimalSymbol) + degreeLabel;
 			maxTempCell.className = "align-right bright max-temp";
 			row.appendChild(maxTempCell);
