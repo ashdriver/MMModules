@@ -38,7 +38,7 @@
     "chai-as-promised": "^7.1.1",
     "current-week-number": "^1.0.7",
     "danger": "^3.9.0",
-    "grunt": "^1.0.4",
+    "grunt": "^1.5.3",
     "grunt-eslint": "^21.1.0",
     "grunt-jsonlint": "^2.0.0",
     "grunt-markdownlint": "^1.1.6",
